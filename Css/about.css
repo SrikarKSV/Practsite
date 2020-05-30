@@ -1,0 +1,19 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #f4f4f4;
+}
+
+table td,
+th {
+	padding: 6px;
+}
+
+.no-bod {
+	border: none;
+}
+
+tbody tr:nth-of-type(2n) {
+	background-color: black;
+	color: wheat;
+}
