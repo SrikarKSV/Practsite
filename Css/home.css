@@ -1,0 +1,42 @@
+body {
+	background-image: url(../Data/home_bac.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	/* background-color: #f4f4f4; */
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-family: 'Fira Code', monospace;
+	font-size: 700;
+	color: whitesmoke;
+	letter-spacing: 0.3em;
+	margin-top: 40vh;
+	text-align: center;
+}
+
+.button {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: large;
+	border: 6px solid wheat;
+	background-color: #f4f4f4;
+	color: black;
+	text-align: center;
+	margin: 0 45% 0;
+	padding: 10px;
+	/* margin-top: 1em; */
+	box-sizing: border-box;
+}
+
+.button:hover {
+	font-weight: bolder;
+	border: 6px solid burlywood;
+}
+
+div p {
+	text-align: center;
+	font-size: 5em;
+	color: darkslategrey;
+}

@@ -1,0 +1,56 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #f4f4f4;
+}
+
+.head {
+	font-family: 'Fira Code', monospace;
+	text-align: center;
+	color: white;
+	padding: 0.1%;
+	background-color: black;
+}
+.nav {
+	position: absolute;
+	top: 15px;
+	left: 86%;
+}
+.nav li {
+	display: inline;
+	position: relative;
+}
+
+a {
+	color: wheat;
+	text-decoration: none;
+}
+
+.main {
+	margin: 0 20% 0;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+main h2 {
+	text-align: center;
+	text-decoration: underline;
+}
+
+.article {
+	margin: 2em 0 2em;
+	border: 2px solid darkslategray;
+	border-radius: 10px;
+	padding: 3%;
+}
+
+iframe {
+	margin: 2em 9em 2em;
+}
+
+iframe + p {
+	font-family: Fira code retina;
+	font-style: italic;
+	text-align: center;
+	font-weight: 300;
+	margin: 0 1em 0;
+}
