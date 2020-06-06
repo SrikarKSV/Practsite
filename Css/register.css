@@ -1,0 +1,77 @@
+body {
+	margin: 0;
+	padding: 0%;
+	background-color: #ffc4a3;
+}
+
+div {
+	border: 2px solid #120136;
+	margin: 6% 30%;
+	padding-bottom: 2em;
+	background-color: #faeee7;
+	/* padding: 2em; */
+}
+
+h1 {
+	font-family: 'Fira Code';
+	text-align: center;
+	text-decoration: underline;
+	text-transform: capitalize;
+	color: #120136;
+}
+
+.form label {
+	font-family: "Fira code retina";
+	display: block;
+	margin: 0.8em 0 0.2em;
+	margin-left: 25%;
+	color: #393e46;
+}
+
+.form .inlin {
+	display: inline-block;
+	margin-right: 1em;
+	margin-bottom: 0.2em;
+}
+
+.form .last {
+	margin-left: 3.7em;
+	margin-right: 0;
+}
+
+.form input {
+	font-family: 'Fira code';
+	padding-left: 0.5em;
+	height: 2rem;
+	width: 20rem;
+	margin-left: 25%;
+}
+
+#first-name {
+	height: 2rem;
+	width: 8.5rem;
+}
+
+#last-name {
+	margin-left: 2.2em;
+	height: 2rem;
+	width: 8.7rem;
+}
+
+input[type="submit"],
+input[type="reset"] {
+	font-family: monospace;
+	box-sizing: border-box;
+	border-radius: 0.5em;
+	margin-top: 2em;
+	height: 2.5em;
+	width: 6em;
+	padding: 0.5em;
+}
+
+input[type="submit"] {
+	margin-left: 15em;
+}
+input[type="reset"] {
+	margin-left: 5em;
+}
